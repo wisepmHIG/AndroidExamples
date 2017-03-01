@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.lifeex.MainActivity2">
+    <EditText
+        android:id="@+id/messageET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아무내용이나 입력해라"/>
+    <Button
+        android:onClick="goBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="돌아가기"/>
+</LinearLayout>

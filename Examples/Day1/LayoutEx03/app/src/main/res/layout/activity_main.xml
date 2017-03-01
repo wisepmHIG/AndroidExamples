@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.layoutex03.MainActivity">
+    <Button
+        android:id="@+id/btn1"
+        android:onClick="layoutView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상대레이아웃 연습1" />
+    <Button
+        android:id="@+id/btn2"
+        android:onClick="layoutView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상대레이아웃 연습2" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 배열을 리소스에서 만들 수 있다. -->
+    <string-array name="datas">
+        <item>한놈</item>
+        <item>두식이</item>
+        <item>석삼</item>
+        <item>너구리</item>
+        <item>오징어</item>
+        <item>육개장</item>
+        <item>칠면조</item>
+        <item>팔공산</item>
+        <item>구렁이</item>
+        <item>십장생 1</item>
+        <item>십장생 2</item>
+        <item>십장생 3</item>
+        <item>십장생 4</item>
+    </string-array>
+</resources>

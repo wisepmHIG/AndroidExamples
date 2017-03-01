@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.sqliteex1.MainActivity">
+    <!--
+    <Button
+        android:onClick="createDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터베이스 작성 또는 열기" />
+    -->
+    <TextView
+        android:id="@+id/_idTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="글번호 : 0"/>
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름을 입력하시오"/>
+    <EditText
+        android:id="@+id/ageET"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="나이를 입력하시오"/>
+    <Button
+        android:id="@+id/saveBtn"
+        android:onClick="insertData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터 저장하기" />
+    <!--
+    <Button
+        android:onClick="selectData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터 읽어오기" />
+    -->
+    <ListView
+        android:id="@+id/resultList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

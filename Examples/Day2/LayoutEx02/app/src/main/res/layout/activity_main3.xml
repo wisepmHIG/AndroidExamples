@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    tools:context="com.example.administrator.layoutex02.MainActivity3">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#66FF663F"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용자아이디 : "/>
+        <EditText
+            android:id="@+id/userIdET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="사용자 아이디를 입력하시오"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용자 암 호 : "/>
+        <EditText
+            android:id="@+id/passwordET"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="사용자 암호를 입력하시오"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="loginCheck"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그인"/>
+        <Button
+            android:onClick="goBack"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="돌아가기"/>
+    </LinearLayout>
+
+</LinearLayout>

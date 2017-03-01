@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.toastex.MainActivity">
+    <EditText
+        android:id="@+id/offsetX"
+        android:inputType="numberSigned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="x좌표입력" />
+    <EditText
+        android:id="@+id/offsetY"
+        android:inputType="numberSigned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="y좌표입력" />
+    <Button
+        android:onClick="viewToast1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="원하는 위치에 토스트 띄우기"/>
+    <Button
+        android:onClick="viewToast2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="원하는 모양으로로 스트 띄우기"/>
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.compex.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이름 : "/>
+        <EditText
+            android:id="@+id/nameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="이름을 입력하세요"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나이 : "/>
+        <EditText
+            android:id="@+id/ageET"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="나이를 입력하세요"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성별 : "/>
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="남자"/>
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="여자"/>
+        </RadioGroup>
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/allDayChk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="하루종일"/>
+    <Button
+        android:onClick="chkToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="버튼으로 체크박스 온오프"/>
+    <Button
+        android:onClick="resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과확인"/>
+    <TextView
+        android:id="@+id/resultTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="10pt"
+        android:background="@android:color/holo_orange_light"/>
+</LinearLayout>

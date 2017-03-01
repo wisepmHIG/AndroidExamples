@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.xmlex2.MainActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="검색"/>
+        <EditText
+            android:id="@+id/searchET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="검색할 단어를 넣으세요"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/searchList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

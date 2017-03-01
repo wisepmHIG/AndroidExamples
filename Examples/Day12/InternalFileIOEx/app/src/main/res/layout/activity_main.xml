@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.internalfileioex.MainActivity">
+
+    <EditText
+        android:id="@+id/contentET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="저장할 내용을 입력하시오" />
+    <Button
+        android:onClick="save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="저장하기"/>
+    <TextView
+        android:id="@+id/contentTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="불러오기"/>
+    <TextView
+        android:id="@+id/fileList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user>
+        <name>한사람</name>
+        <age>12</age>
+        <gender>남</gender>
+    </user>
+    <user>
+        <name>두사람</name>
+        <age>38</age>
+        <gender>남</gender>
+    </user>
+    <user>
+        <name>세사람</name>
+        <age>41</age>
+        <gender>여</gender>
+    </user>
+</users>
