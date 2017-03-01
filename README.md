@@ -1,17 +1,29 @@
-# AndroidExamples
-Examples for Android Application beginner
+# 안드로이드 예제(Android examples)
+## What is it?
+안드로이드 초보자를 위한 예제들입니다.  
+
+
+제 :point_right: [블로그](http://wisepm.tistory.com/category/Android)로 오셔서 강의들을 확인해보세요  
+차차 업로드 할 예정입니다. 업로드한 항목은 체크해 놓겠습니다.  
+:white_check_mark: : 블로그에 올린 항목  
+
+It's examples for Android beginner  
 
 Please come to :point_right: [my blog](http://wisepm.tistory.com/category/Android) if you want to see lectures.
 It might help you to understand examples. 
-(It's not all uploaded yet. I will check the uploaded items on the list)
-
+(It's not all uploaded yet. I will check the uploaded items on the list)  
 :white_check_mark: : uploaded in blog.
 
-#list
+## Development Environment
+ - android
+ - android studio
+ - 한국어(korean)
+
+## Index
  - Day1
-  - MyApplication
-  - LayoutEx01
-  - LayoutEx03
+	- MyApplication
+ 	- LayoutEx01
+	- LayoutEx03
 
  - Day2
    - LayoutEx02
