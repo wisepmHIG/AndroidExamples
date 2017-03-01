@@ -5,10 +5,9 @@ Examples for Android Application beginner
  - Day1
   - MyApplication
   - LayoutEx01
-  - LayoutEx03
+  - LayoutEx02
 
  - Day2
-   - LayoutEx02
    - LayoutEx03
    - LayoutEx04
    - LayoutEx05
@@ -50,9 +49,9 @@ Examples for Android Application beginner
   - ListViewEx02
   - ListViewEx03
   - ListViewEx04
+  - ListViewEx05
 
 - Day8
-  - ListViewEx05
   - SpinnerEx01
   - SpinnerEx02
   - GridViewEx
