@@ -14,7 +14,7 @@ It might help you to understand examples.
 (It's not all uploaded yet. I will check the uploaded items on the list)  
 :white_check_mark: : uploaded in blog.
 
-## Development Environment
+## Development Environment & language
  - android
  - android studio
  - 한국어(korean)
