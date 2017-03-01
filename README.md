@@ -1,6 +1,9 @@
 # AndroidExamples
 Examples for Android Application beginner
 
+Please come to :point_right: [my blog](http://wisepm.tistory.com/category/Android) if you want to see lectures.
+It might help you to understand examples.
+
 #list
  - Day1
   - MyApplication
